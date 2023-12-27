@@ -1,0 +1,337 @@
+body{ margin: 0px;
+background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+header {
+    width: 100%;
+}
+#cont{display: flex;
+    justify-content: end;
+    width: 80%;
+    margin: auto; 
+}
+#cont1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.8rem;
+    text-align: right;
+    font-weight: 300;
+}
+#cont1 a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: aliceblue;
+    font-weight: 300;
+}
+#center {
+    display: flex;
+    justify-content: center;  
+    color: white; 
+    
+}
+
+
+#center img{
+    width: 20%;
+   height: 30%;
+}
+#text {display: flex;
+    justify-content: center;  
+    color: white; 
+    font-size: 2.3rem;
+    font-weight: 100;
+    padding: 11px;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+#div1{
+   
+    padding-bottom: 0px;
+}
+#main {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    margin-top: 35%;
+}
+#main h1{
+    display: flex;
+    justify-content: center;
+   font-size: 3.3rem;
+   margin-top: 94px;
+}
+#main img{
+    position: relative;
+    top: 6px;
+    margin-left: 1%;
+    width: 94px;
+    margin-right: 20px;
+}
+#main p{
+    display: flex;
+    justify-content: center;
+   font-size: 2.2rem;
+   color: #939393;
+   margin-bottom: 0px;
+}
+#para1{display: flex;
+    justify-content: center;
+   font-size: 2.2rem;
+   color: #939393;
+
+}
+#para2{
+    display: flex;
+    justify-content: center;
+   font-size: 2.2rem;
+   color: #939393;
+   margin-top: 0px;
+}
+
+#button{
+background-color: rgb(255,255,255);
+    margin: auto;
+    width: 90%;
+    
+}
+#button div{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+button{
+    display: inline-block;
+    margin: auto;
+    margin-top: 44px;
+    width: 32%;
+    padding : 26px;
+    border-radius: 21px;
+    font-size: 1.3rem;
+   border :none;
+   transition-duration: 1sec;
+    
+}
+button:hover{
+    background-color: white;
+}
+#right img {
+    width: 130%;
+}
+#butt{
+    align-items:center ;
+    padding: 0px;
+}
+#footer{
+   display: flex;
+   justify-content: space-between;
+   margin: 5%;
+   background-color: rgb(248,248,248);
+}
+#footer2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(248,248,248) ;
+    margin-top: 0%;
+}
+#bg{
+    background-color: rgb(248,248,248) ;
+}
+#footer2 div h2{
+    font-size: 1.6rem;
+}
+.foot1 li{
+    list-style-type: none;
+}
+.foot1 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: grey;
+    line-height: 2;
+    
+    
+}
+#footer2 img{
+    display: block;
+    margin: 5%;
+}
+.fa-brands{
+   padding: 3%;
+   size: 9%;
+   font-size: 2rem;
+   
+}
+#para {
+   
+    width: 90%;
+    margin: 3%;
+    font-size: 1.5rem;
+}
+
+@media(max-width:600px){
+    body{ 
+        background-size: 100%;
+        background-position-x: center;
+        }
+     #cont{display: none; 
+        }
+        #cont1 {
+            display: none;
+        }
+        #cont1 a{
+            display: none;}
+            #center {
+                padding: 1%;}
+
+
+#center img{
+    padding-top: 10%;
+    width: 40%;
+   height: 30%;
+}
+#text {
+    font-size: 1rem;
+    padding: 0%;
+    margin-bottom: 3%;
+}
+span{
+    display: flex;
+    justify-content: center;
+}
+#div1{
+   
+    padding-bottom: 0px;
+}
+#main {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    margin-top: 16%;
+}
+#main h1{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+   font-size: 2rem;
+   margin-top: 0px;
+}
+#main img{
+    position: relative;
+    top: 6px;
+    margin-left: 1%;
+    width: 20px;
+    margin-right: 15px;
+}
+#main p{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+   font-size: 1.5rem;
+   color: #939393;
+   margin-bottom: 0px;
+}
+#para1{display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+   font-size: 1.5rem;
+   color: #939393;
+
+}
+#para2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+   font-size: 1.5rem;
+   color: #939393;
+   margin-top: 0px;
+}
+
+#button{
+background-color: rgb(255,255,255);
+    margin: auto;
+    width: 90%;
+    
+}
+#button div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+    
+}
+button{
+    width: 90%;
+    margin: auto;
+    margin-top: 4%;
+    padding : 20px;
+    border-radius: 21px;
+    font-size: 1rem;
+}
+
+#right img {
+    width: 82%;
+}
+#butt{
+    align-items:center ;
+    padding: 0px;
+}
+#footer{
+   display: flex;
+   justify-content: space-between;
+   margin: 5%;
+   background-color: rgb(248,248,248);
+}
+#footer2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:  rgb(248,248,248) ;
+    margin-top: 0%;
+}
+.none{
+    display: none;
+}
+
+#bg{
+    background-color: rgb(248,248,248) ;
+}
+#footer2 div h2{
+    font-size: 1.4rem;
+}
+
+
+.foot1 a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: grey;
+    line-height: 2;
+   
+}
+
+
+#footer2 img{
+    display: block;
+    margin: 5%;
+}
+.fa-brands{
+  display: none;
+   
+}
+#para {
+    font-size: 1rem;
+} 
+}
